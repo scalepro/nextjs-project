@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #bfc3cc;
+  border-radius: 1rem;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #464f5f;
+  border-radius: 1rem;
+}
+
+.visible-fit-element {
+  max-width: max(0px, calc((100% - 120px) * 999));
+  overflow: hidden;
+}
