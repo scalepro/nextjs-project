@@ -6,9 +6,9 @@ export default function StatsLoading() {
           <div className="flex h-full items-center">
             <div className="h-full px-10 lg:px-12 flex-shrink-0 bg-gray-300 dark:bg-gray-700 flex items-center"></div>
             <div className="py-3 ml-6 flex-1">
-              <div class="w-full">
-                <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-1/3 mb-4"></div>
-                <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-2/3"></div>
+              <div className="w-full">
+                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-1/3 mb-4"></div>
+                <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-2/3"></div>
               </div>
             </div>
           </div>
@@ -20,9 +20,9 @@ export default function StatsLoading() {
           <div className="flex h-full items-center">
             <div className="h-full px-10 lg:px-12 flex-shrink-0 bg-gray-300 dark:bg-gray-700 flex items-center"></div>
             <div className="py-3 ml-6 flex-1">
-              <div class="w-full">
-                <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-1/3 mb-4"></div>
-                <div class="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-2/3"></div>
+              <div className="w-full">
+                <div className="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-1/3 mb-4"></div>
+                <div className="h-2.5 bg-gray-200 rounded-full dark:bg-gray-700 w-2/3"></div>
               </div>
             </div>
           </div>
