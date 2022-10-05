@@ -3,6 +3,7 @@ import Layout from '@/components/layout/Layout';
 import Heading from '@/components/app/Heading';
 import BillingData from '@/components/assinatura/BillingData';
 import Cards from '@/components/assinatura/Cards';
+import Orders from '@/components/assinatura/Orders';
 
 const pageData = {
   title: 'Assinatura',
@@ -27,6 +28,7 @@ export default function Assinatura() {
           <Heading page={pageData} />
           <BillingData />
           <Cards />
+          <Orders />
         </>
       </Layout>
     </>
