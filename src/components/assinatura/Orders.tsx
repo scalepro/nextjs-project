@@ -1,7 +1,15 @@
 import Table from './Table';
+import TableLoading from './TableLoading';
 import { dividedCard, cardTitle, cardSubtitle } from '@/styles/StyledElements';
 
 export default function Orders() {
+  const paymentData = [
+    {
+      period: 'De 13/08/22 à 20/08/22',
+      value: 'R$15,89',
+      status: 'Pago',
+    },
+  ];
   return (
     <section className="mt-10" aria-labelledby="table-orders">
       <div className={dividedCard}>
@@ -15,7 +23,7 @@ export default function Orders() {
               sua conta desde a sua criação.
             </p>
           </div>
-          <Table />
+          <Table bodyData={paymentData} />
         </div>
       </div>
     </section>
